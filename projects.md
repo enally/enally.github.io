@@ -4,12 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-List of projects
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+### List of Projects
+- [RefItForMe](http://enally.github.io/refitforme/)
+> A small Site built in HTML/CSS/Vanilla Javascript, which takes DOI values and returns citations in the harvard referencing format.
