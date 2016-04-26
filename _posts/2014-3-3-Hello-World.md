@@ -1,6 +1,8 @@
 ---
 layout: post
 title: First Post
+tags:
+- programming
 ---
 
 It lives!!
