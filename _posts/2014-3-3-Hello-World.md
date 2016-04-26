@@ -1,8 +1,8 @@
 ---
 layout: post
 title: First Post
-tags:
-- programming
+category: programming
+tags: [github, github-pages, jekyll]
 ---
 
 It lives!!
