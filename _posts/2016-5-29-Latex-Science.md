@@ -12,7 +12,6 @@ table, th, td {
     border-collapse: collapse;
 }
 </style>
-# Latex for Lab Science
 
 ## First things first, Disclaimer
 I am not by any means a programmer. While I enjoy looking into programming languages and technology, my background is in science. I have found that the more you know about programming, markup languages and software, the easier it is to process a lot of the data generated in chemical science. I have used all of these programs, and while I had some sucsess with them, it was not without trial and error. Your milage may vary.
@@ -47,6 +46,7 @@ Terms which require more than 1 operator by default may also require brackets, t
 
 
 ## Common Chemistry Equations in Latex
+
 ### Arrhenius equation
 > `K = Ae^{-E_{a}/(RT)}`
 <p>\( K = Ae^{-E_{a}/(RT)} \)</p>
@@ -58,6 +58,7 @@ Terms which require more than 1 operator by default may also require brackets, t
 ### Michaelis–Menten kinetics
 > `\upsilon = \frac{d[P]}{dt} = \frac{V_{max}[S]}{K_{M} + [S]}`
 <p> \( \upsilon = \frac{d[P]}{dt} = \frac{V_{max}[S]}{K_{M} + [S]} \) </p>
+
 ## Resources
 
 [Latex2png](http://latex2png.com/)
