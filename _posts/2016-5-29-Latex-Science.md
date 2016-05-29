@@ -5,14 +5,6 @@ category: programming
 tags: [science, latex, mathjax]
 ---
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-</style>
-
 ## First things first, Disclaimer
 I am not by any means a programmer. While I enjoy looking into programming languages and technology, my background is in science. I have found that the more you know about programming, markup languages and software, the easier it is to process a lot of the data generated in chemical science. I have used all of these programs, and while I had some sucsess with them, it was not without trial and error. Your milage may vary.
 
@@ -63,3 +55,12 @@ Terms which require more than 1 operator by default may also require brackets, t
 
 [Latex2png](http://latex2png.com/)
 [ShareLatex](https://www.sharelatex.com/)
+
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
