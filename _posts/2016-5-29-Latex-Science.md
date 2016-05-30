@@ -45,7 +45,7 @@ Terms which require more than 1 operator by default may also require brackets, t
 </p>
 
 <p>
-Most greek symbols used can be created using their names as terms, with the case of the first letter determining if it is an uppercase or lowercase symbol. For example, `\upsilon` would give \( \upsilson \) , while `\Upsilon` would output as \( \Upsilon \). This applies to most greek letters, such as alpha, beta, gamma, etc.
+Most greek symbols used can be created using their names as terms, with the case of the first letter determining if it is an uppercase or lowercase symbol. For example, `\upsilon` would give \( \upsilon \) , while `\Upsilon` would output as \( \Upsilon \). This applies to most greek letters, such as alpha, beta, gamma, etc.
 </p>
 > Note: While `{}` is not rendered in the final output, brackets such as `()` are rendered.
 
