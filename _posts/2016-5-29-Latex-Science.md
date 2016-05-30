@@ -12,7 +12,6 @@ table, th, td {
     border-collapse: collapse;
 }
 </style>
-# Latex for Lab Science
 
 ## First things first, Disclaimer
 I am not by any means a programmer. While I enjoy looking into programming languages and technology, my background is in science. I have found that the more you know about programming, markup languages and software, the easier it is to process a lot of the data generated in chemical science. I have used all of these programs, and while I had some sucsess with them, it was not without trial and error. Your milage may vary.
