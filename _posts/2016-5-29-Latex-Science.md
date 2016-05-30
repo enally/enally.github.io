@@ -5,6 +5,15 @@ category: programming
 tags: [science, latex, mathjax]
 ---
 
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
+# Latex for Lab Science
+
 ## First things first, Disclaimer
 I am not by any means a programmer. While I enjoy looking into programming languages and technology, my background is in science. I have found that the more you know about programming, markup languages and software, the easier it is to process a lot of the data generated in chemical science. I have used all of these programs, and while I had some sucsess with them, it was not without trial and error. Your milage may vary.
 
@@ -34,33 +43,31 @@ When using powers, we would use the symbol `^` to indicate a superscript charact
 <p>
 Terms which require more than 1 operator by default may also require brackets, to speicify what characters are part of what part of the term. Take fractions for example, which use the term `\frac`. Fractions are made of a numerator above the line and a denominator below the line. If we were to represent a half as `\frac12`, the computer would not be able to tell whether it was given 1 and 2 as numerator and denominator, or the number 12 as either of these. This becomes even more confusing with larger fractions, especially when involving variable. We use brackets here to specify which part is which, by writing fractions as `\frac{1}{2}` for a half. This allows use render \( \frac{1}{2} \), and clearly shows which number belongs where. We can include as much as we want in either of these brackets, and the will be placed appropriatly. Brackets also have the benefit of nesting, although depending on the type of equation, this can either increase or decrease the clarity when writing it. 
 </p>
+
+<p>
+Most greek symbols used can be created using their names as terms, with the case of the first letter determining if it is an uppercase or lowercase symbol. For example, `\upsilon` would give \( \upsilson \) , while `\Upsilon` would output as \( \Upsilon \). This applies to most greek letters, such as alpha, beta, gamma, etc.
+</p>
 > Note: While `{}` is not rendered in the final output, brackets such as `()` are rendered.
 
 
-## Common Chemistry Equations in Latex
+### Common Chemistry Equations in Latex
 
-### Arrhenius equation
+#### Arrhenius equation
 > `K = Ae^{-E_{a}/(RT)}`
 <p>\( K = Ae^{-E_{a}/(RT)} \)</p>
 
-### Henderson-Hasselbalch Equations
+#### Henderson-Hasselbalch Equations
 > `pH = pK_{a} + \log_{10}(\frac{[A^{-}]}{[HA]})`
 <p> \( pH = pK_{a} + \log_{10}(\frac{[A^{-}]}{[HA]}) \) </p>
 
-### Michaelis–Menten kinetics
+#### Michaelis–Menten kinetics
 > `\upsilon = \frac{d[P]}{dt} = \frac{V_{max}[S]}{K_{M} + [S]}`
 <p> \( \upsilon = \frac{d[P]}{dt} = \frac{V_{max}[S]}{K_{M} + [S]} \) </p>
 
-## Resources
+### Resources
 
-[Latex2png](http://latex2png.com/)
-[ShareLatex](https://www.sharelatex.com/)
+While latex is a brilliant way to write documents, it can also be a tricky environment to set up. There are a lot of installers avaliable for windows, OSX and Linux, but given their large size (I use an 8gb chromebook on debian) and many dependancies, I'd advise using other software to compile and output your documents. 
 
+If you want to insert an equation into an otherwise boring document file, my suggestion would be using something like [Latex2png](http://latex2png.com/) to create an image of your equation and add that to your document. It allows for a lot of the basic equation functions of latex and outputs a resizable png of the equation.
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-</style>
+For more ambitious projects, [ShareLatex](https://www.sharelatex.com/) would be my recommendation. It is a web based service which allows you to write in, and compile, latex code. It's pretty handy for learning too, as their are a number of templates to get you started, and gives good feedback as far as compiling errors are concerned. I used it for my thesis (as I didn't have the harddrive space to actually install Latex), and it helped greatly to know that my files were backup up in the cloud by default. 
