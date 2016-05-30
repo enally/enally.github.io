@@ -19,3 +19,10 @@ Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block
 \\[ \frac{1}{n^{2}} \\]
 
 \\[ {\frac{n^{2}}{x}} - \frac{1}{n^{x}} = \sqrt{23} \\]
+
+```python
+def syntax_highlighting(x,y):
+  return x,y
+
+print 'This is a test'
+```
